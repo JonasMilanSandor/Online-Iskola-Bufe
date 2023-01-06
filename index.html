@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Iskola Büfé</title>
+    <link rel="stylesheet" href="stilus.css" type="text/css">
+</head>
+<body>
+
+    <table class="tab-b">
+        <h1>Online Iskola Büfé</h1>
+        <th>Elérhetőségeink:</th>
+        <tr><td>Cím: Budapest, Első utca, 1.</td></tr>
+        <tr><td>Tel: +36-12/7654321</td></tr>
+        <tr><td>E-mail: OIB@gmail.com</td></tr>
+    </table>
+
+
+    <table class="tab-j">
+        <th>Nyitvatartás:</th>
+        <tr>
+            <td>Hétköznapokon: 08:00-16:00</td>
+        </tr>
+        <tr>
+            <td>Hétvégén: zárva</td>
+        </tr>
+    </table>
+
+
+    <table class="tab">
+        <td><a href="#Ételkínálat">Ételkínálat</a></td>
+        <td><a href="#Italkínálat">Italkínálat</a></td>
+        <td><a href="#Nasik">Nasik</a></td>
+        <td><a href="#Rendelés">Rendelés</a></td>
+    </table>
+
+
+
+    <div class="csuszka">
+        <form action="#" method="get">
+        <div>
+        <fieldset>
+
+            <legend id="Ételkínálat">Ételkínálat</legend>
+
+            <div>
+            <img src="sonkás-sz.jfif"><a href="https://www.venusz.hu/recept/742/tavaszi-sonkas-szendvics">Sonkás szendvics: 350,-Ft</a>
+            <input type="checkbox">
+            </div>
+
+            <div>
+            <img src="hotdog.jfif" id="hotdog"><a href="https://www.nosalty.hu/recept/amerikai-hotdog-doritol">Hot dog: 500,-Ft</a>
+            <input type="checkbox">
+            </div>
+
+            <div>
+            <img src="pizza.jfif" id="pizza"><a href="https://www.nosalty.hu/recept/sonkas-sajtos-pizza">Pizza szelet: 600,-Ft</a>
+            <input type="checkbox">
+            </div>
+
+            <div>
+            <img src="kakaóscsiga.jfif"><a href="https://www.mindmegette.hu/kakaos-csiga-vii.recept/">Kakaós csiga: 450,-Ft</a>
+            <input type="checkbox">
+            </div>
+
+            <div>
+            <img src="burger.jfif"><a href="https://www.nosalty.hu/recept/hamburger-hazi-zsomlevel">Hamburger: 500,-Ft</a>
+            <input type="checkbox">
+            </div>
+
+            <div>
+            <img src="meelg.jfif"><a href="https://www.nosalty.hu/recept/grilled-cheese-szendvics">Sajtos melegszendvics: 400,-Ft</a>
+            <input type="checkbox">
+            </div>
+
+        </fieldset>
+
+    </div>
+
+    <div>
+
+        <fieldset>
+
+            <legend id="Italkínálat">Italkínálat</legend>
+
+            <div>
+                <img src="bub-víz.jfif"><label>Buborékos víz (0,5l): 350,-Ft</label>
+                <input type="checkbox">
+            </div>
+
+            <div>
+                <img src="men-víz.jfif"><label>Mentes víz (0,5l): 350,-Ft</label>
+                <input type="checkbox">
+            </div>
+
+            <div>
+                <img src="coca.jfif"><label>Coca Cola (330ml): 440,-Ft</label>
+                <input type="checkbox">
+            </div>
+
+            <div>
+                <img src="pepsi.jpg"><label>Pepsi (330ml): 420,-Ft</label>
+                <input type="checkbox">
+            </div>
+
+            <div>
+                <img src="ice.jfif"><label>Őstibarackos Ice Tea (0,5l): 585,-Ft</label>
+                <input type="checkbox">
+            </div>
+
+        </fieldset>
+
+    </div>
+
+    <div>
+
+        <fieldset>
+
+            <legend id="Nasik">Nasik</legend>
+
+            <div>
+                <img src="cheetos.jfif"><label>Sajtos Cheetos (85g): 470,-Ft</label>
+                <input type="checkbox">
+            </div>
+
+            <div>
+                <img src="chio.jfif"><label>Hagymás-tejfölös Chio Chips (140g): 580,-Ft</label>
+                <input type="checkbox">
+            </div>
+
+            <div>
+                <img src="haribo.jfif"><label> Haribo Goldbären gumicukor (100g): 460,-Ft</label>
+                <input type="checkbox">
+            </div>
+
+            <div>
+                <img src="tró.jpg"><label>Haribo tropifrutti gumicukor (100g): 460,-Ft</label>
+                <input type="checkbox">
+            </div>
+
+        </fieldset>
+
+    </div>
+
+    <div>
+
+        <fieldset>
+
+            <legend id="Rendelés">Rendelés</legend>
+
+            <div class="b50">
+                <label>Név:</label><br>
+                <input type="text" class="h40" placeholder="Vezetéknév Keresztnév" required>
+            </div>
+
+            <div class="j50">
+                <label>Osztály:</label><br>
+                <input type="text" class="h40" placeholder="x.y osztály" required>
+            </div>
+
+            <div class="b50">
+                <label>Kiszállítás helye, ideje:</label><br>
+                <select name="termek" size="1" class="bh25" required>
+                    <option value="1">1-es terem</option>
+                    <option value="2">2-es terem</option>
+                    <option value="3">3-as terem</option>
+                    <option value="4">4-es terem</option>
+                    <option value="5">5-ös terem</option>
+                    <option value="6">6-os terem</option>
+                    <option value="7">7-es terem</option>
+                    <option value="8">8-as terem</option>
+                    <option value="9">9-es terem</option>
+                    <option value="10">10-es terem</option>
+                </select>
+
+                <select name="órák" size="1" class="jh25" required>
+                    <option value="1">1.óra utáni szünetben</option>
+                    <option value="2">2.óra utáni szünteben</option>
+                    <option value="3">3.óra utáni szünteben</option>
+                    <option value="4">4.óra utáni szünteben</option>
+                    <option value="5">5.óra utáni szünteben</option>
+                    <option value="6">6.óra utáni szünetben</option>
+                    <option value="7">7.óra utáni szünetben</option>
+                    <option value="8">8.óra utáni szünetben</option>
+                </select> 
+
+            </div>
+                
+                <div class="j50">
+                    <label>Telelfonszám:</label><br>
+                    <input type="tel" class="h40" placeholder="+36-12/1234567" required>
+                </div>    
+
+                <div class="b50">
+                    <input type="reset" value="Rendelés törlése" class="h40">
+                </div>
+                
+                <div class="j50">
+                    <input type="submit" value="Rendelés leadása" class="h40">
+                </div>
+
+        </fieldset>
+
+    </div>
+
+    <div>
+
+</body>
+
+</html>
